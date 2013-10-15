@@ -1,0 +1,13 @@
+1) start RMI registry
+  $> rmiregistr & (default port 1099)
+2) start Tomcat
+  /Library/Tomcat/bin/startup.sh
+  /Library/Tomcat/bin/shutdown.sh
+3) adding JVM parameters
+  -Djava.rmi.server.codebase=http://localhost:<port>/ 
+  -Djava.security.manager -Djava.security.policy=<client>.policy 
+  -Djava.rmi.server.codebase=http://localhost:<port>/ 
+  -Djava.security.manager -Djava.security.policy=<server>.policy 
+4) run Server
+5) run Client
+6) profit ???
