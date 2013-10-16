@@ -5,9 +5,10 @@
   /Library/Tomcat/bin/shutdown.sh
 3) adding JVM parameters
   -Djava.rmi.server.codebase=http://localhost:<port>/ 
-  -Djava.security.manager -Djava.security.policy=<client>.policy 
+  -Djava.security.manager -Djava.security.policy=myclient.policy 
+
   -Djava.rmi.server.codebase=http://localhost:<port>/ 
-  -Djava.security.manager -Djava.security.policy=<server>.policy 
+  -Djava.security.manager -Djava.security.policy=myserver.policy 
 4) run Server
 5) run Client
 6) profit ???
