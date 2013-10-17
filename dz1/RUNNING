@@ -1,5 +1,5 @@
-1) start RMI registry
-  $> rmiregistr & (default port 1099)
+1) start RMI registry (from the directory that holds .class files of the package)
+  $> rmiregistr & 
 2) start Tomcat
   /Library/Tomcat/bin/startup.sh
   /Library/Tomcat/bin/shutdown.sh
