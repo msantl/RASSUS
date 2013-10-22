@@ -1,4 +1,5 @@
 RASSUS
 ======
 
-RASSUS class repository
+RASSUS homework repository
+
