@@ -5,8 +5,8 @@
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/UserAdminImpl.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1381950668869" ignored="false" />
-    <file path="/fragment.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382026753682" ignored="false" />
-    <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/Client.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382045528047" ignored="false" />
+    <file path="/fragment.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382375008546" ignored="false" />
+    <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/Client.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382374945265" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/server/UserAdmin.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1381942065357" ignored="false" />
     <file path="/UserAdmin.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1381942039856" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/server/UserAddress.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382019155518" ignored="false" />
@@ -32,8 +32,8 @@
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/tcp/server/FileServer.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382009911738" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/tcp/client/TCPClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382005359461" ignored="false" />
     <file path="/FileServer.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382027631513" ignored="false" />
-    <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/tcp/server/ChatServer.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382045598292" ignored="false" />
-    <file path="/ChatServer.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382045448071" ignored="false" />
+    <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/tcp/server/ChatServer.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382295908349" ignored="false" />
+    <file path="/ChatServer.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382295905269" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/udp/server/FileServer.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382029407462" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/udp/server/ServerIf.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382010873837" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/udp/server/network/SimulatedDatagramSocket.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382011026117" ignored="false" />
@@ -42,10 +42,10 @@
     <file path="/Paket.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382017414863" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/udp/client/Paket.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382017415192" ignored="false" />
     <file path="/UDPClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382029536943" ignored="false" />
-    <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/udp/client/FileClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382029565592" ignored="false" />
+    <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/udp/client/FileClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382296302623" ignored="false" />
     <file path="$PROJECT_DIR$/../client/src/hr/rassus/dz1/client/tcp/client/ChatClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382044718229" ignored="false" />
-    <file path="/FileClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382019455600" ignored="false" />
-    <file path="$PROJECT_DIR$/../client/myclient.policy" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382021602165" ignored="false" />
+    <file path="/FileClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382296161459" ignored="false" />
+    <file path="$PROJECT_DIR$/../client/myclient.policy" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382375003223" ignored="false" />
     <file path="/test.txt" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382043202087" ignored="false" />
     <file path="$PROJECT_DIR$/../client/test.txt" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382043202087" ignored="false" />
     <file path="/ChatClient.java" changelist="d970ba97-df16-4f09-9f33-c45619f6f4bd" time="1382044479196" ignored="false" />
@@ -64,6 +64,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -100,7 +101,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -110,25 +110,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserAdmin.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserAdmin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.43659043">
+            <state line="15" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAdminImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="UserAdminImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="78" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#584#605#0" expanded="true" />
-                <element signature="e#701#722#0" expanded="true" />
-                <element signature="e#1754#1762#0" expanded="true" />
-              </folding>
+            <state line="94" column="12" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.622575">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myserver.policy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myserver.policy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="52" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,17 +159,17 @@
         <option value="$PROJECT_DIR$/src/hr/rassus/dz1/server/ClassServer.java" />
         <option value="$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdmin.java" />
         <option value="$PROJECT_DIR$/src/hr/rassus/dz1/server/Item.java" />
-        <option value="$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java" />
         <option value="$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAddress.java" />
         <option value="$PROJECT_DIR$/myserver.policy" />
+        <option value="$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="1436" />
-    <option name="height" value="878" />
+    <option name="x" value="1440" />
+    <option name="y" value="-124" />
+    <option name="width" value="1280" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,7 +185,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -192,7 +196,48 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -211,7 +256,7 @@
     <configuration default="false" name="UserAdminImpl" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="hr.rassus.dz1.server.UserAdminImpl" />
-      <option name="VM_PARAMETERS" value="-Djava.rmi.server.codebase=http://localhost:4727/ -Djava.security.manager -Djava.security.policy=myserver.policy " />
+      <option name="VM_PARAMETERS" value=" -Djava.security.manager -Djava.security.policy=myserver.policy" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -279,7 +324,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
+    <frame x="1440" y="-124" width="1280" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -295,8 +340,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35575366" sideWeight="0.67146015" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32849604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39951378" sideWeight="0.67256635" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -372,12 +417,7 @@
     <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="19" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#584#605#0" expanded="true" />
-            <element signature="e#701#722#0" expanded="true" />
-            <element signature="e#1754#1762#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -390,14 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myserver.policy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/ClassServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="7" selection-start="4465" selection-end="4465" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdmin.java">
@@ -410,25 +443,13 @@
     <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="51" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#584#605#0" expanded="true" />
-            <element signature="e#701#722#0" expanded="true" />
-            <element signature="e#1754#1762#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myserver.policy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/ClassServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="7" selection-start="4465" selection-end="4465" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdmin.java">
@@ -441,32 +462,13 @@
     <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="52" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#584#605#0" expanded="true" />
-            <element signature="e#701#722#0" expanded="true" />
-            <element signature="e#1754#1762#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myserver.policy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/ClassServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="7" selection-start="4465" selection-end="4465" vertical-scroll-proportion="1.8280182" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myserver.policy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="71" selection-start="341" selection-end="341" vertical-scroll-proportion="0.3118503">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAddress.java">
@@ -476,21 +478,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java">
+    <entry file="file://$PROJECT_DIR$/myserver.policy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="78" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#584#605#0" expanded="true" />
-            <element signature="e#701#722#0" expanded="true" />
-            <element signature="e#1754#1762#0" expanded="true" />
-          </folding>
+        <state line="11" column="52" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.43659043">
+        <state line="15" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hr/rassus/dz1/server/UserAdminImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="12" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.622575">
           <folding />
         </state>
       </provider>

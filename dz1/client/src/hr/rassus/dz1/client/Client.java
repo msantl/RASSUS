@@ -56,9 +56,9 @@ public class Client {
     }
 
     public static void main(String[] args) {
-        if (System.getSecurityManager() == null) {
-            System.setSecurityManager(new RMISecurityManager());
-        }
+        // if (System.getSecurityManager() == null) {
+        //     System.setSecurityManager(new RMISecurityManager());
+        // }
 
         try {
             String cmd;
@@ -135,8 +135,8 @@ public class Client {
                         FileClient UDPClient = FileClient.startClient(datoteka, adresa, port);
 
                     } else if ("chat".equals(tokens[0]) && tokens.length > 2) {
-                        String adresa = tokens[2];
-                        int port = Integer.parseInt(tokens[3]);
+                        String adresa = tokens[1];
+                        int port = Integer.parseInt(tokens[2]);
 
                         Socket socket = new Socket(adresa, port);
 

@@ -23,9 +23,9 @@ public class Client {
     public static final String EXIT_COMMAND = "exit";
 
     public static void main(String[] args) {
-        if (System.getSecurityManager() == null) {
-            System.setSecurityManager(new RMISecurityManager());
-        }
+        // if (System.getSecurityManager() == null) {
+        //     System.setSecurityManager(new RMISecurityManager());
+        // }
 
         try {
             final UserAdmin remoteObject =

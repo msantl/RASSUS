@@ -1,5 +1,7 @@
 package hr.rassus.dz1.client.tcp.server;
 
+import hr.rassus.dz1.client.Client;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.SocketException;
@@ -136,10 +138,10 @@ public class ChatServer extends Thread implements ServerIf {
                 BufferedReader inFromClient = new BufferedReader( new InputStreamReader(socket.getInputStream()));
 
                 while ((input = inFromClient.readLine()) != null) {
-                    System.out.println("Server received from " + socket.getRemoteSocketAddress().toString() + ":\t" + input);
-                    if (input.equals("")) {
+                    if (input.equals(Client.CHAT_EXIT_COMMAND)) {
                         break;
                     }
+                    System.out.println("New message from " + socket.getRemoteSocketAddress().toString() + ":\t" + input);
                 }
 
                 inFromClient.close();

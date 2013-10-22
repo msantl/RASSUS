@@ -88,15 +88,12 @@ public class UserAdminImpl extends UnicastRemoteObject implements UserAdmin {
 
     public static void main(String[] args) {
         try {
-            if (System.getSecurityManager() == null) {
-                System.setSecurityManager(new RMISecurityManager());
-            }
-
-            System.out.println(
-                    "Codebase: " + System.getProperty("java.rmi.server.codebase"));
+            // if (System.getSecurityManager() == null) {
+            //     System.setSecurityManager(new RMISecurityManager());
+            // }
 
             // start the class file server
-            new ClassServer(CLASS_SERVER_PORT);
+            // new ClassServer(CLASS_SERVER_PORT);
 
             // instantiate and register the remote object
             final UserAdmin serverObject = new UserAdminImpl();

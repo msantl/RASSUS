@@ -44,10 +44,12 @@ public class UserAdminImpl
         }
 
         users.put(username, password);
+        System.out.println("Adding new user " + username + " with password " + password);
         return true;
     }
 
     public String getPassword(String username) {
+        System.out.println("Giving out password for " + username);
         return (String) users.get(username);
     }
 
@@ -61,15 +63,12 @@ public class UserAdminImpl
      */
     public static void main(String[] args) {
         try {
-            if (System.getSecurityManager() == null) {
-                System.setSecurityManager(new RMISecurityManager());
-            }
-
-            System.out.println(
-                    "Codebase: " + System.getProperty("java.rmi.server.codebase"));
+            // if (System.getSecurityManager() == null) {
+            //     System.setSecurityManager(new RMISecurityManager());
+            // }
 
             // start the class file server
-            new ClassServer(CLASS_SERVER_PORT);
+            // new ClassServer(CLASS_SERVER_PORT);
 
             // instantiate and register the remote object
             final UserAdmin serverObject = new UserAdminImpl();

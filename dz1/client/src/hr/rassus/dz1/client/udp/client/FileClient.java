@@ -88,8 +88,14 @@ public class FileClient extends Thread{
             System.out.println(e.getMessage());
         }
 
-        System.out.println("Received all packages");
         socket.close();
+
+        if (primljeno.isEmpty() == true) {
+            System.out.println("NO packages received");
+            return;
+        } else {
+            System.out.println("Received all packages");
+        }
 
         try {
             FileOutputStream fos = new FileOutputStream(filename + ".copy");

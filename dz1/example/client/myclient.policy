@@ -6,3 +6,5 @@ permission java.net.SocketPermission "localhost:1024-", "listen, accept, connect
 // RMI permissions
 permission java.util.PropertyPermission "java.rmi.server.codebase", "read";
 };
+
+// -Djava.rmi.server.codebase=http://localhost:4727/
