@@ -1,0 +1,33 @@
+digraph g {
+    compound=true;
+    graph [ rankdir="LR" ];
+    node [ fontsize="16" ];
+    
+    subgraph cluster0 {
+        label="Files"
+        color=black;
+        file_1 [ label="A.doc |<w1> word1 |<w2> word2 | ... |<wk> wordk", shape="record" ];
+        file_2 [ label="B.doc |<w1> word1 |<w2> word2 | ... |<wk> wordk", shape="record" ];
+        file_k [ label="XYZ.doc |<w1> word1 |<w2> word2 | ... |<wk> wordk", shape="record" ];
+    }
+
+    subgraph cluster1 {
+        label="Mapped";
+        color=black;
+        map_1 [ label="<h> Map w1 |<f1> word1 : 1 |<f2> word1 : 1 | ... |<fk> word1 : 1", shape="record" ];
+        map_2 [ label="<h> Map w2 |<f1> word2 : 1 |<f2> word2 : 1 | ... |<fk> word2 : 1", shape="record" ];
+        map_k [ label="<h> Map wk |<f1> wordk : 1 |<f2> wordk : 1 | ... |<fk> wordk : 1", shape="record" ];
+    }
+
+    subgraph cluster2 {
+        label="Reduced";
+        color=black;
+        reduce_1 [ label="<h> Reduce w1 | w1 : 10", shape="record" ];
+        reduce_2 [ label="<h> Reduce w2 | w2 : 53", shape="record" ];
+        reduce_k [ label="<h> Reduce wk | wk : 77", shape="record" ];
+    }
+
+
+    file_2 -> map_2 [ label="Map()", ltail=cluster0, lhead=cluster1 ];
+    map_2 -> reduce_2 [ label="Reduce()", ltail=cluster1, lhead=cluster2 ];
+}
