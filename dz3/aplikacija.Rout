@@ -1,0 +1,76 @@
+
+R version 2.14.2 (2012-02-29)
+Copyright (C) 2012 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: i386-apple-darwin9.8.0/i386 (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> library(pdq)
+> 
+> # default values
+> 
+> p_ap1 = 0.2
+> p_ap2 = 0.3
+> p_ap3 = 0.5
+> p_bp = 0.1
+> 
+> S_ZZ = 0.001
+> S_PO = 0.001
+> S_AP = 0.3
+> S_BP = 4.5
+> 
+> v_ap1 = p_ap1 / (1 - p_bp)
+> v_ap2 = p_ap2 / (1 - p_bp)
+> v_ap3 = p_ap3 / (1 - p_bp)
+> 
+> L_inc = 0.1
+> L_start = 0.1
+> L_end = 2
+> 
+> # solve for various L's 
+> for (L in seq(L_start, L_end, by=L_inc)) {
++ 	Init("RASSUS - 3.dz")
++ 	
++ 	CreateOpen("zahtjevi", L)
++ 	
++ 	SetWUnit("Zahtjevi")
++ 	SetTUnit("Min")
++ 	
++ 	CreateNode("ZZ", CEN, FCFS)
++ 	CreateNode("PO", CEN, FCFS)
++ 	CreateNode("AP1", CEN, FCFS)
++ 	CreateNode("AP2", CEN, FCFS)
++ 	CreateNode("AP3", CEN, FCFS)
++ 	CreateNode("BP", CEN, FCFS)
++ 	
++ 	SetVisits("ZZ", "Zahtjevi", 1.0, S_ZZ)
++ 	SetVisits("PO", "Zahtjevi", 1.0, S_PO)
++ 	
++ 	SetVisits("AP1", "Zahtjevi", v_ap1, S_AP)
++ 	SetVisits("AP2", "Zahtjevi", v_ap2, S_AP)
++ 	SetVisits("AP3", "Zahtjevi", v_ap3, S_AP)	
++ 	
++ 	SetVisits("BP", "Zahtjevi", v_ap1 * v_ap2 * v_ap3 * p_bp, S_BP)
++ 
++ 	Solve(CANON)	
++ 	
++ 	Report()
++ }
+Error in Solve(CANON) : ERROR in procedure 'canonical()': Dsat = 0.000
+Calls: Solve -> .Call
+Execution halted
